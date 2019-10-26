@@ -8,6 +8,7 @@
 #include <chrono>
 using namespace std;
 
+//Your numbers will be different for the frequencies and wavelengths.
 const char *Outlet_5_On = "python3 ~/send.py -p 188 -t 1 95491";
 const char *Outlet_5_Off = "python3 ~/send.py -p 188 -t 1 95500";
 const char *Outlet_4_On = "python3 ~/send.py -p 188 -t 1 89347";
